@@ -13,7 +13,7 @@ function Education() {
     
     <div className='mt-14 w-full mdl:w-4/5   h-[700px] border-l-[7px] border-l-black border-opacity-30 flex flex-col  gap-10'>
      <ResumeCard
-      title="Btech in Electronics & Computer Engineering"
+      title="Btech in Electronics & Communication Engineering"
       subTitle="(2022-2025)"
       result="8.0/10.0"
       des="IET,Lucknow "

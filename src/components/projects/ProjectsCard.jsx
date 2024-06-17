@@ -2,7 +2,7 @@ import React from 'react'
 import {BsGithub} from "react-icons/bs";
 import {FaGlobe} from "react-icons/fa";
 
-function ProjectsCard({title,des,src}) {
+function ProjectsCard({title,des,src,link,link1}) {
   return (
     <div className='w-full px-5 xl:px-9 h-auto py-5 xl:py-8 rounded-lg shadow-shadowOne flex flex-col bg-gradient-to-r from-bodyColor to-[#202327] group hover:bg-gradient-to-b hover:from-gray-900 hover:gray-900 transition-colors duration-100'>
     <div className='w-full h-[80%] overflow-hidden rounded-lg'>
@@ -19,10 +19,14 @@ function ProjectsCard({title,des,src}) {
             </h3>
             <div className="flex gap-2">
               <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
-                <BsGithub />
+              <a href={link} target="_blank" rel="noopener noreferrer">
+      <BsGithub />
+    </a>
               </span>
               <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
-                <FaGlobe />
+              <a href={link1} target="_blank" rel="noopener noreferrer">
+      <FaGlobe />
+    </a>
               </span>
             </div>
           </div>

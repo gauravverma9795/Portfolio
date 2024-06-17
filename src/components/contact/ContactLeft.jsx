@@ -9,8 +9,8 @@ function ContactLeft() {
     src={contactImg} alt="contactImg" />
     <div>
      <h3 className='text-3xl font-bold text-white'>Gaurav Verma</h3>
-     <p className='text-lg font-normal text-gray-400'>Frontend Developer</p>
-     <p className='text-base text-gray-400 tracking-wide'>I am an enthsiastic frontend Developer looking for job opprtunity</p>
+     <p className='text-lg font-normal text-gray-400'>Full Stack Developer</p>
+     <p className='text-base text-gray-400 tracking-wide'>I am an enthsiastic Full Stack Developer looking for job opprtunity</p>
      <p className='text-base text-gray-400 flex items-center gap-2'>Phone: <span className='text-lightText'>+91 8381948571</span></p>
      <p className='text-base text-gray-400 flex items-center gap-2'>
          Email:{" "}
