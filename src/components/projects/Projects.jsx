@@ -22,7 +22,7 @@ function Projects() {
           des=" Developed a full-featured Netflix clone, providing an intuitive platform for users to browse, stream,
 and manage their video content"
           src={projectOne}
-          link={`https://github.com/gauravverma9795/netflix`}
+          link={`https://github.com/gauravverma9795/mern-Netflix-clone`}
         
          
           
