@@ -5,7 +5,7 @@ function Card() {
     <div className='w-90 lgl:w-3/4 px-12 h-80 py-10 rounded-lg shadow-shadowOne flex  justify-center items-center bg-gradient-to-r from-bodyColor to-[#202327] group hover:bg-gradient-to-b hover:from-black hover:to-[#1e2024] transition-colors duration-100' >
     <div className='flex flex-col gap-2 overflow-auto scrollable-element scrollable-element  w-90 h-60 object-cover group-hover:scale-100 duration-300 '>
     <h2 className='text-green-600 text-lg'>About Me</h2> 
-      <h5>Hey there! I'm Gaurav Verma, a third-year Electronics and Communication Engineering (ECE) student at the Institute of Engineering and Technology, Lucknow. I'm passionate about frontend web development and currently exploring the MERN stack (MongoDB, Express.js, React, and Node.js).</h5>
+      <h5>Hey there! I'm Gaurav Verma, a third-year Electronics and Communication Engineering (ECE) student at the Institute of Engineering and Technology, Lucknow. I'm passionate about Full stack web development and currently exploring the MERN stack (MongoDB, Express.js, React, and Node.js).</h5>
      <h2  className='text-green-600 text-lg'> My Journey</h2>
     <h5>I discovered my love for programming and web development during my starting year at university. Since then, I've been on a journey of continuous learning and growth, diving deep into HTML, CSS, JavaScript, and React to craft intuitive user interfaces.</h5>
 

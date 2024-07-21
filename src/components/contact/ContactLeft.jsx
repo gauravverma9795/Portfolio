@@ -1,6 +1,8 @@
 import React from 'react'
 import { contactImg } from '../../assets/Index'
 import { FaFacebook, FaLinkedinIn, FaTwitter } from 'react-icons/fa'
+import { FaGithub } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 function ContactLeft() {
   return (
     <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-4 lgl:p-8 rounded-lg shadow-shadowOne flex flex-col gap-8 justify-center">
@@ -20,9 +22,11 @@ function ContactLeft() {
     <div className='flex flex-col gap-4'>
      <h2 className='text-base uppercase font-titleFont mb-4'>Find me in</h2>
      <div className='flex gap-4'>
-         <span className='bannerIcon'><FaFacebook/></span>
-         <span className='bannerIcon'><FaTwitter/></span>
+     <span className="bannerIcon">
+                <a href="https://www.instagram.com/its__gaurav111/" target="_blank" rel="noopener noreferrer" ><FaInstagram /></a>
+            </span>
          <span className='bannerIcon'><a href="https://www.linkedin.com/in/gaurav-verma-282019267/" target="_blank" rel="noopener noreferrer" ><FaLinkedinIn /></a></span>
+         <span className='bannerIcon'><FaTwitter/></span>
      </div>
     </div>
    </div>

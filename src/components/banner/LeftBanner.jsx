@@ -29,7 +29,7 @@ function LeftBanner() {
       />
       </h2>
       <p className='text-1xl font-bodyFont leading-6 tracking-wide'>
-      "Frontend Developer proficient in React, Tailwind CSS, and JavaScript. Backend expertise includes Node.js, Express.js, and MongoDB."
+      "Frontend Developer proficient in ReactJs ,NextJs, Tailwind CSS, and JavaScript. Backend expertise includes Node.js, Express.js, and MongoDB."
       </p>
       <div className='my-10'>
       <Media />

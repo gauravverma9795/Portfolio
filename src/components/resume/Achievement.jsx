@@ -26,12 +26,12 @@ function Achievement() {
           </div>
           <div className='flex flex-col  gap-y-5'>
             <div  className='flex flex-row justify-center items-center'>
-            <h2 className='px-3'>3 ⭐ coder in (Codechef) Highest Rating 1657.</h2>
+            <h2 className='px-3 font-bold text-lg text-amber-100' >3 ⭐ coder in (Codechef) Highest Rating 1657.</h2>
             </div>
         
           <div className='flex flex-row justify-center items-center gap-x-10'>
           
-          <a className="underline  hover:text-designColor  duration-300 visited:text-blue-600" href="https://www.codechef.com/users/itsgaurav777" target="_blank" rel="noopener noreferrer"  >CodeChef</a>
+          <a className="underline italic  hover:text-designColor  duration-300 visited:text-blue-600" href="https://www.codechef.com/users/itsgaurav777" target="_blank" rel="noopener noreferrer"  >CodeChef</a>
           
           </div>
           </div>
@@ -70,13 +70,13 @@ function Achievement() {
           </div>
           <div className='flex flex-col  gap-y-5'>
             <div  className='flex flex-row justify-center items-center'>
-            <h2 className='px-3'>I have solved 300+ problems on Different Coding Plateforms.</h2>
+            <h2 className='px-3 font-bold text-lg text-amber-100'>I have solved 300+ problems on Different Coding Plateforms.</h2>
             </div>
         
           <div className='flex flex-row justify-center items-center gap-x-10'>
-          <a className="underline hover:text-designColor duration-300 visited:text-blue-600" href="https://leetcode.com/u/gauravverma9795/" target="_blank" rel="noopener noreferrer" >Leetcode</a>
-          <a className="underline hover:text-designColor  duration-300 visited:text-blue-600" href="https://www.geeksforgeeks.org/user/gauravvve8xc6/" target="_blank" rel="noopener noreferrer" >GFG</a>
-          <a className="underline  hover:text-designColor  duration-300 visited:text-blue-600" href="https://www.naukri.com/code360/profile/gauravverma9795" target="_blank" rel="noopener noreferrer"  >Codingninjas</a>
+          <a className="underline italic hover:text-designColor duration-300 visited:text-blue-600" href="https://leetcode.com/u/gauravverma9795/" target="_blank" rel="noopener noreferrer" >Leetcode</a>
+          <a className="underline italic hover:text-designColor  duration-300 visited:text-blue-600" href="https://www.geeksforgeeks.org/user/gauravvve8xc6/" target="_blank" rel="noopener noreferrer" >GFG</a>
+          <a className="underline italic  hover:text-designColor  duration-300 visited:text-blue-600" href="https://www.naukri.com/code360/profile/gauravverma9795" target="_blank" rel="noopener noreferrer"  >Codingninjas</a>
           
           </div>
           </div>
