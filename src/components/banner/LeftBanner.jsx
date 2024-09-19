@@ -5,7 +5,7 @@ import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact } from "react-icons/fa";
 import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
 function LeftBanner() {
     const [text]=useTypewriter({
-        words:[ "Full Stack Developer.","3 ⭐ Codechef","SDE Intern @hashedbit Innovation", "a Frontend Developer.","an upcomming..........."],
+        words:[ "Full Stack Developer.","4 ⭐ Codechef","PUPIL in Codeforces","SDE Intern at @hashedbit Innovation"," Web Development Internship  at @OctaNet Services Pvt Ltd"," I Build AI Related Project like AI Interview Mocker APP And AI Form Builder", " Frontend Developer.","an upcomming..........."],
         loop:true,
         typeSpeed:20,
         deleteSpeed:10,

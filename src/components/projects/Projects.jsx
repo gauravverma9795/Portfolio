@@ -1,5 +1,5 @@
 import React from 'react'
-import { projectOne, projectTwo, projectThree,projectFour } from "../../assets/Index";
+import { projectOne, projectTwo, projectThree,projectFour,projectFive } from "../../assets/Index";
 import Title from '../layouts/Title'
 import ProjectsCard from './ProjectsCard'
 function Projects() {
@@ -17,6 +17,20 @@ function Projects() {
         />
         </div>
         <div className='grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-3 gap-6 xl:gap-14'>
+
+        <ProjectsCard
+          title="AI Form Builder"
+          des="Integrated Gemini API to leverage AI for dynamic form creation based on user inputs.Implemented a controller feature allowing users to customize and change all CSS properties of the generated
+forms
+          
+          "
+          src={projectFive}
+          link={`https://github.com/gauravverma9795/ai-form-builder`}
+          link1={`https://ai-form-builder-gaurav.vercel.app/`}
+        
+         
+          
+        />
         <ProjectsCard
           title="AI Mock Interview App"
           des="Built and deployed a Full Stack AI Mock Interview App with Next.js, React, Drizzle ORM, Gemini AI, and Clerk.
